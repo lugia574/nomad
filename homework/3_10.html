@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home_work_3_10</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .wrap {
+        background-color: tomato;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .parent {
+        background-color: wheat;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: solid black;
+      }
+
+      .box {
+        background-color: teal;
+        height: 30px;
+        margin: 5px;
+        padding: 5px;
+      }
+      .first,
+      .third {
+        width: 30px;
+        border: solid white;
+      }
+
+      .second {
+        width: 150px;
+        border: dashed white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="parent">
+        <div class="box first"></div>
+        <div class="box second"></div>
+        <div class="box third"></div>
+      </div>
+    </div>
+  </body>
+</html>
