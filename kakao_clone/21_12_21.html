@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @keyframes sexyboom {
+        0% {
+          transform: rotateX(0);
+        }
+        25% {
+          transform: scale(2);
+        }
+        50% {
+          transform: rotateX(360deg) translateX(100px);
+          border-color: tomato;
+        }
+        75% {
+          transform: scale(5);
+        }
+        100% {
+          transform: rotateX(0);
+        }
+      }
+      img {
+        width: 300px;
+        height: 550px;
+        border: 10px solid black;
+        border-radius: 50%;
+        animation: sexyboom 5s ease-in-out infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="../kakao_clone/img/123.jpg" alt="" />
+  </body>
+</html>
