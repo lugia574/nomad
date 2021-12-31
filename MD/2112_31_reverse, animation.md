@@ -25,3 +25,18 @@ flex children에게 사용할 수 있다. 자식 수가 많으면 어렵다.
     }
 
          두 번째 방식은 flex-direction : row-reverse를 이용해 반전시키는 방법이다.
+
+### forwards
+
+display:none;(눈에보이는화면만 없앰)
+
+visibility:hidden;(기능까지 숨김, 마우스클릭 가능)
+
+만약 없애고 싶다면 Javascript(뇌) 필요. html로는 무시(골격)정도만 가능.
+
+animation-delay: #s
+
+    will-change는 애니메이션이 좀 더 부드럽게 동작할 수 있게 한다. → 브라우저에게 어떤 것이 변할 것인지 예고해주는 것
+
+
+    will-change는 그래픽 카드를 이용해서 애니메이션을 가속화 한다.
