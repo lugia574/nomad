@@ -1,0 +1,28 @@
+.s-full {
+  color: #f1c40f;
+}
+
+.s-empt {
+  opacity: 0.5;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.container__title,
+.info__title {
+}
+
+.container__title {
+  font-size: 24px;
+  margin: 50px 0 20px;
+}
+
+.container__contents {
+  display: flex;
+}
