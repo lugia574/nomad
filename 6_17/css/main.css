@@ -1,10 +1,5 @@
-.main {
-  background-color: whitesmoke;
-}
-
-.container__contents img {
-  margin-right: 20px;
-  border-radius: 10%;
+.container:first-child {
+  margin-top: 200px;
 }
 
 .container:first-child > .container__contents img {
@@ -17,7 +12,7 @@
   height: 150px;
 }
 
-.container:nth-child(3) > .container__contents img {
+.container:nth-child(n + 3) > .container__contents img {
   width: 150px;
   height: 200px;
 }

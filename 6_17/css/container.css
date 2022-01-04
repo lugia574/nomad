@@ -26,3 +26,8 @@ h1 {
 .container__contents {
   display: flex;
 }
+
+.container__contents img {
+  margin-right: 20px;
+  border-radius: 10%;
+}

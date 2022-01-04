@@ -6,4 +6,43 @@
   padding: 50px 20px;
   font-size: 24px;
   font-weight: 600;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+
+  z-index: 1;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 100px;
+  width: 100%;
+
+  z-index: 2;
+}
+
+.search input {
+  background-color: white;
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+.search input::placeholder,
+.search i {
+  opacity: 0.5;
+}
+
+.search i {
+  position: absolute;
+  right: 35px;
 }

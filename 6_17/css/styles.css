@@ -11,6 +11,17 @@
 
 body {
   min-width: 450px;
+  height: auto;
+
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  background-color: #f5f6fa;
+
+  /* overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none; */
 }
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
