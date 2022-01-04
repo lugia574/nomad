@@ -17,6 +17,10 @@
   height: 200px;
 }
 
+.container__info {
+  width: 100%;
+}
+
 .info__title {
   font-size: 18px;
   font-weight: 600;
