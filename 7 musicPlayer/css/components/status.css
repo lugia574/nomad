@@ -1,0 +1,51 @@
+.window__status_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0.5;
+}
+
+.artist__status_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+.shuffle_btn,
+.like_brn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shuffle_btn {
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #2d3436;
+  margin-right: 30px;
+}
+.shuffle_btn i,
+.like_btn i {
+  margin-right: 10px;
+}
+
+.shuffle_btn span,
+.like_btn span {
+  font-size: 12px;
+}
+
+.shuffle_btn i,
+.shuffle_btn span {
+  color: whitesmoke;
+}
+
+.like_btn i {
+  color: red;
+}
+
+.like_btn span {
+  opacity: 0.5;
+}
