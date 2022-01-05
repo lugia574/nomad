@@ -1,0 +1,101 @@
+.music_select_window {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.artist_icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist_icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.artist_name span {
+  display: block;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.genre span {
+  display: block;
+  opacity: 0.5;
+  font-size: 18px;
+}
+.artist_icon,
+.artist_name span,
+.genre span {
+  margin-bottom: 10px;
+}
+
+.music_list {
+  width: 350px;
+
+  margin: 30px 0;
+}
+
+.music_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  margin-bottom: 30px;
+}
+.music_info {
+  display: flex;
+}
+
+.music_picture {
+  position: relative;
+}
+
+.music_picture img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  margin-right: 10px;
+}
+
+.current_music_effect {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #2d3436;
+  opacity: 0.5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current_music_effect i {
+  color: white;
+}
+
+.music_info__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.music_info__text span:first-child {
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.music_info__text span:nth-child(2) {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.music_panel .opacity_icon {
+  opacity: 0.5;
+}
