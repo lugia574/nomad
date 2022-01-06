@@ -53,16 +53,22 @@
 }
 
 .music_bar__bar {
+  -webkit-appearance: none;
   width: 400px;
   height: 5px;
   background-color: #2d3436;
+
   border-radius: 3px;
+  cursor: pointer;
+}
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 2px solid #2d3436;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: whitesmoke;
 }
 
 .music_bar__dot {
@@ -98,10 +104,6 @@
 .btn__column:nth-child(3) i:nth-child(2) {
   margin-left: 60%;
   opacity: 0.5;
-}
-
-.btn__column:first-child i:nth-child(2) {
-  transform: rotate(180deg);
 }
 
 .main_controller__btn {

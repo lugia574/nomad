@@ -27,6 +27,7 @@
   background-color: #2d3436;
   margin-right: 30px;
 }
+
 .shuffle_btn i,
 .like_btn i {
   margin-right: 10px;
@@ -44,6 +45,34 @@
 
 .like_btn i {
   color: red;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: red;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: red;
+    transform: none;
+  }
+}
+
+.like_btn:hover i {
+  will-change: transform;
+  animation: heartBeat 2s linear infinite;
+  cursor: pointer;
+}
+
+.like_btn:active {
+  transform: scale(0.8);
+}
+.shuffle_btn:active {
+  transform: scale(0.8);
 }
 
 .like_btn span {

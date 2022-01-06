@@ -43,6 +43,32 @@
   color: whitesmoke;
 }
 
-.mini_controller .controller__btn i:first-child {
+.left_animation {
   transform: rotate(180deg);
+}
+
+.left_animation:active {
+  transform: scale(0.6) rotate(180deg);
+}
+
+.fa-arrow-left:hover,
+.fa-search:hover,
+.fa-ellipsis-v:hover,
+.shuffle_btn:hover,
+.like_btn:hover,
+.left_animation:hover,
+.pause_animation:hover,
+.right_animation:hover,
+.play_animation:hover,
+.shuffle_animation:hover,
+.random_animation:hover {
+  cursor: pointer;
+}
+
+.pause_animation:active,
+.right_animation:active,
+.play_animation:active,
+.shuffle_animation:active,
+.random_animation:active {
+  transform: scale(0.6);
 }
