@@ -7,7 +7,7 @@
 }
 
 .more-screen .icon-row .icon-row__icon {
-  margin: 10px 50px 20px 0;
+  margin: 10px 0 20px 0;
 }
 
 .more-suggestions {
@@ -34,12 +34,18 @@
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 10;
+}
+
+.more-suggestions__icon:first-child .more-suggestions__icon-image {
+  background-color: var(--yellow);
+}
+.more-suggestions__icon:nth-child(2) .more-suggestions__icon-image {
+  background-color: #34495e;
 }
 
 .more-suggestions__icon-image i {

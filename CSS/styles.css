@@ -24,6 +24,7 @@ body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
   min-width: 450px;
+  height: auto;
 }
 
 .main-screen {

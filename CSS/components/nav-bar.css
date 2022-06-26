@@ -22,7 +22,7 @@
     transform: none;
   }
   50% {
-    transform: translateY(-5px) rotateY(14400deg);
+    transform: translateY(-5px) rotateY(145deg);
   }
   100% {
     transform: none;
@@ -61,9 +61,9 @@
 }
 
 .nav__btn {
-  transform: translateY(50px) rotateZ(14400deg);
+  transform: translateY(50px) rotateZ(144deg);
   opacity: 0;
-  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+  animation: appearBtnAnimation 1s ease-in-out forwards;
 }
 
 .nav__btn:nth-child(2) {

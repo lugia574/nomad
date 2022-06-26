@@ -1,16 +1,20 @@
 .icon-row {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 140px); /* 3 columns */
+  grid-template-rows: repeat(2, 140px); /* 3 rows  */
+  /* grid-gap: 50px 30px; */
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .icon-row__icon i {
   font-size: 35px;
+  cursor: pointer;
 }
 
 .icon-row__icon span {

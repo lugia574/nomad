@@ -16,6 +16,9 @@
 .screen_header__icons span {
   margin-right: 25px;
 }
+.screen_header__icons span i {
+  cursor: pointer;
+}
 
 @keyframes rotateCog {
   from {

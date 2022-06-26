@@ -1,3 +1,7 @@
+.main-screen {
+  margin-bottom: 80px;
+}
+
 .recommended-friends {
   margin: 25px 0;
   padding: 25px 0;
@@ -16,6 +20,10 @@
   text-align: center;
   font-size: 18px;
   color: var(--gray-color);
+}
+
+.recommended-friends .user-component {
+  margin-bottom: 30px;
 }
 
 .open-chat__header {
