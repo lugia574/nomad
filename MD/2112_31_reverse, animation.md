@@ -40,3 +40,5 @@ animation-delay: #s
 
 
     will-change는 그래픽 카드를 이용해서 애니메이션을 가속화 한다.
+
+뭐냐 왜 바꾼게 깃헙 io 에는 반영이 안되냐
